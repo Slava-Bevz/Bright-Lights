@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Bright Lights</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240306171120">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo logo">
+					<img src="img/logo.svg" alt="Logo">
+				</a>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" class="menu__link">About</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">News</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Music</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Media</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Tours</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Contacts</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="hero">
+				<div class="hero__bg">
+					<picture><source srcset="img/bg.webp" type="image/webp"><img src="img/bg.png" alt="Image"></picture>
+				</div>
+				<div class="hero__container">
+					<div class="player">
+						<div class="player__song-info">
+							<div class="player__artist">New Single</div>
+							<div class="player__song-title">War For Love</div>
+						</div>
+						<div class="player__main">
+							<div class="player__play-pause">
+								<svg class="player__play-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="play">
+									<path d="M8 6.82v10.36c0 .79.87 1.27 1.54.84l8.14-5.18c.62-.39.62-1.29 0-1.69L9.54 5.98C8.87 5.55 8 6.03 8 6.82z"></path>
+								</svg>
+								<svg class="player__pause-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" id="pause">
+									<path d="M8 5a2 2 0 0 0-2 2v10a2 2 0 1 0 4 0V7a2 2 0 0 0-2-2zm8 0a2 2 0 0 0-2 2v10a2 2 0 1 0 4 0V7a2 2 0 0 0-2-2z"></path>
+								</svg>
+							</div>
+							<div class="player__seek-container">
+								<input class="player__seek" type="range" min="0" max="100" value="0" step="0.01">
+								<span class="player__seek-backround"></span>
+							</div>
+							<div class="player__time">00:00 - 00:00</div>
+							<div class="player__volume-control">
+								<div class="player__volume-icon">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="volume">
+										<g data-name="Layer 2">
+											<g data-name="volume-up">
+												<path d="M18.28 8.37a1 1 0 1 0-1.56 1.26 4 4 0 0 1 0 4.74A1 1 0 0 0 17.5 16a1 1 0 0 0 .78-.37 6 6 0 0 0 0-7.26z"></path>
+												<path d="M19.64 5.23a1 1 0 1 0-1.28 1.54A6.8 6.8 0 0 1 21 12a6.8 6.8 0 0 1-2.64 5.23 1 1 0 0 0-.13 1.41A1 1 0 0 0 19 19a1 1 0 0 0 .64-.23A8.75 8.75 0 0 0 23 12a8.75 8.75 0 0 0-3.36-6.77zm-5.17-2.11a1 1 0 0 0-1 0L7 7.57H2a1 1 0 0 0-1 1v6.86a1 1 0 0 0 1 1h5l6.41 4.4A1.06 1.06 0 0 0 14 21a1 1 0 0 0 1-1V4a1 1 0 0 0-.53-.88z"></path>
+											</g>
+										</g>
+									</svg>
+								</div>
+								<div class="player__volume-container">
+									<input class="player__volume" type="range" min="0" max="100" value="100">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hero__news-items">
+						<div class="news">
+							<div class="news__img">
+								<picture><source srcset="img/news/image-one.webp" type="image/webp"><img src="img/news/image-one.png" alt="news image"></picture>
+							</div>
+							<div class="news__text">
+								<p>Working on my upcoming full-lenth album that`s releasing later this year.</p>
+							</div>
+						</div>
+						<div class="news">
+							<div class="news__img">
+								<picture><source srcset="img/news/image-two.webp" type="image/webp"><img src="img/news/image-two.png" alt="news image"></picture>
+							</div>
+							<div class="news__text">
+								<p>Halloween vibes.</p>
+								<p>Listen my new track!</p>
+							</div>
+						</div>
+						<div class="news">
+							<div class="news__img">
+								<picture><source srcset="img/news/image-three.webp" type="image/webp"><img src="img/news/image-three.png" alt="news image"></picture>
+							</div>
+							<div class="news__text">
+								<p>WarForLove is OUT NOW!!</p>
+								<p>Stream it here!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="biography" data-watch data-watch-once>
+				<div class="biography__container">
+					<div class="biography__main">
+						<h3 class="biography__title">Bright Lights</h3>
+						<div class="biography__text">
+							<p>
+								Bright Lights is a multi-Grammy nominated singer, songwriter, DJ and record producer. She has written for numerous
+							</p>
+							<p>
+								pop stars including Britney Spears, Justin Bieber, Usher and Beyoncé. Her catalog has amassed over 1 billion streams worldwide. More than 100 million of those streams can be attributed to her artist career and include such hits as Porter Robinson's "Language," 3LAU's "How You Love Me" and her own single "Runaway." She was also a featured vocalist on Zedd's #1 Clarity album. Her latest music video, "Put It Down," reached 1 million streams in the first week, releasing independently. Bright Lights is currently in the studio working on a self-produced album slated for release in 2020.
+							</p>
+						</div>
+						<ul class="biography__info">
+							<li class="biography__details">Based in: Los Angeles</li>
+							<li class="biography__details">Founded in 2011</li>
+							<li class="biography__details">Genre: #DancePop </li>
+							<li class="biography__details">Label: 333 Recordings</li>
+						</ul>
+					</div>
+					<div class="biography__img">
+						<picture><source srcset="img/biography/image-one.webp" type="image/webp"><img src="img/biography/image-one.jpeg" alt="biography photo"></picture>
+						<picture><source srcset="img/biography/image-two.webp" type="image/webp"><img src="img/biography/image-two.jpeg" alt="biography photo"></picture>
+					</div>
+				</div>
+			</section>
+			<section class="radio" data-watch data-watch-once>
+				<div class="radio__container">
+					<div class="radio__main">
+						<div class="radio__info">
+							<div class="radio__text">
+								<p>
+									“In an age where mainstream music is designed to be as
+									easily consumed as possible, listening to Bright Lights is
+									refreshing, to say the least. Her sound is perfect for radio
+									but complex enough to separate her from other pop newcomers.”
+								</p>
+							</div>
+							<a href="#" class="radio__link">PopULove.net</a>
+						</div>
+						<div class="radio__img">
+							<picture><source srcset="img/radio/mTV.webp" type="image/webp"><img src="img/radio/mTV.png" alt="mTV image-one"></picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="last-tracks" data-watch data-watch-once>
+				<div class="last-tracks__container">
+					<div class="last-tracks__img">
+						<picture><source srcset="img/last-tracks/image.webp" type="image/webp"><img src="img/last-tracks/image.jpeg" alt="Image last tracks"></picture>
+					</div>
+					<div class="last-tracks__main">
+						<h3 class="last-tracks__title">Last tracks</h3>
+						<div class="player">
+							<div class="player__main">
+								<div class="player__play-pause">
+									<svg class="player__play-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="play">
+										<path d="M8 6.82v10.36c0 .79.87 1.27 1.54.84l8.14-5.18c.62-.39.62-1.29 0-1.69L9.54 5.98C8.87 5.55 8 6.03 8 6.82z"></path>
+									</svg>
+									<svg class="player__pause-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" id="pause">
+										<path d="M8 5a2 2 0 0 0-2 2v10a2 2 0 1 0 4 0V7a2 2 0 0 0-2-2zm8 0a2 2 0 0 0-2 2v10a2 2 0 1 0 4 0V7a2 2 0 0 0-2-2z"></path>
+									</svg>
+								</div>
+								<div class="player__seek-container">
+									<input class="player__seek" type="range" min="0" max="100" value="0" step="0.01">
+									<span class="player__seek-backround"></span>
+								</div>
+								<div class="player__time">00:00 - 00:00</div>
+								<div class="player__volume-control">
+									<div class="player__volume-icon">
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="volume">
+											<g data-name="Layer 2">
+												<g data-name="volume-up">
+													<path d="M18.28 8.37a1 1 0 1 0-1.56 1.26 4 4 0 0 1 0 4.74A1 1 0 0 0 17.5 16a1 1 0 0 0 .78-.37 6 6 0 0 0 0-7.26z"></path>
+													<path d="M19.64 5.23a1 1 0 1 0-1.28 1.54A6.8 6.8 0 0 1 21 12a6.8 6.8 0 0 1-2.64 5.23 1 1 0 0 0-.13 1.41A1 1 0 0 0 19 19a1 1 0 0 0 .64-.23A8.75 8.75 0 0 0 23 12a8.75 8.75 0 0 0-3.36-6.77zm-5.17-2.11a1 1 0 0 0-1 0L7 7.57H2a1 1 0 0 0-1 1v6.86a1 1 0 0 0 1 1h5l6.41 4.4A1.06 1.06 0 0 0 14 21a1 1 0 0 0 1-1V4a1 1 0 0 0-.53-.88z"></path>
+												</g>
+											</g>
+										</svg>
+									</div>
+									<div class="player__volume-container">
+										<input class="player__volume" type="range" min="0" max="100" value="100">
+									</div>
+								</div>
+							</div>
+						</div>
+						<ol class="last-tracks__list">
+							<li class="last-tracks__item"><a href="#" class="last-tracks__link active">3LAU, Bright Lights — How You Love Me</a></li>
+							<li class="last-tracks__item"><a href="#" class="last-tracks__link">Bright Lights, Kaleena Zanders, Kandy — War For Love</a></li>
+							<li class="last-tracks__item"><a href="#" class="last-tracks__link">Pink Is Punk, Benny Benassi, Bright Lights — Ghost</a></li>
+							<li class="last-tracks__item"><a href="#" class="last-tracks__link">Hardwell, Dyro, Bright Lights — Never Say Goodbye</a></li>
+							<li class="last-tracks__item"><a href="#" class="last-tracks__link">Zeds Dead, Dirtyphonics, Bright Lights — Where Are You Now</a></li>
+							<li class="last-tracks__item"><a href="#" class="last-tracks__link">Zedd, Bright Lights — Follow You Down</a></li>
+						</ol>
+						<div class="last-tracks__subscription subscription">
+							<h3 class="subscription__title">
+								Follow me:
+							</h3>
+							<div class="subscription__main">
+								<a href="#" class="subscription__spotify">Spotify</a>
+								<a href="#" class="subscription__itunes">iTunes</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="gallery" data-watch data-watch-once>
+				<div class="gallery__container">
+					<a href="#" class="gallery__card">
+						<div class="gallery__card-text">
+							<p>EDC Las Vegas Mainstage</p>
+						</div>
+						<div class="gallery__image">
+							<picture><source srcset="img/gallery/image-one.webp" type="image/webp"><img src="img/gallery/image-one.png" alt="Gallery Image"></picture>
+						</div>
+					</a>
+					<a href="#" class="gallery__card">
+						<div class="gallery__card-text">
+							<p>EDC Las Vegas Mainstage</p>
+						</div>
+						<div class="gallery__image">
+							<picture><source srcset="img/gallery/image-two.webp" type="image/webp"><img src="img/gallery/image-two.png" alt="Gallery Image"></picture>
+						</div>
+					</a>
+					<a href="#" class="gallery__card">
+						<div class="gallery__card-text">
+							<p>EDC Las Vegas Mainstage</p>
+						</div>
+						<div class="gallery__image">
+							<picture><source srcset="img/gallery/image-three.webp" type="image/webp"><img src="img/gallery/image-three.png" alt="Gallery Image"></picture>
+						</div>
+					</a>
+					<a href="#" class="gallery__card">
+						<div class="gallery__card-text">
+							<p>EDC Las Vegas Mainstage</p>
+						</div>
+						<div class="gallery__image">
+							<picture><source srcset="img/gallery/image-four.webp" type="image/webp"><img src="img/gallery/image-four.png" alt="Gallery Image"></picture>
+						</div>
+					</a>
+					<a href="#" class="gallery__card">
+						<div class="gallery__card-text">
+							<p>EDC Las Vegas Mainstage</p>
+						</div>
+						<div class="gallery__image">
+							<picture><source srcset="img/gallery/image-five.webp" type="image/webp"><img src="img/gallery/image-five.png" alt="Gallery Image"></picture>
+						</div>
+					</a>
+				</div>
+			</section>
+			<section class="slider-tickets" data-watch data-watch-once>
+				<div class="slider-tickets__container">
+					<div class="slider-tickets__slider swiper">
+						<div class="slider-tickets__wrapper swiper-wrapper">
+							<div class="slider-tickets__slide swiper-slide">
+								<div class="slider-tickets__img">
+									<picture><source srcset="img/slider/slide-one.webp" type="image/webp"><img src="img/slider/slide-one.png" alt="Slide Image"></picture>
+								</div>
+								<div class="slider-tickets__main">
+									<div class="slider-tickets__info">
+										<h3 class="slider-tickets__city">Chandler, AZ</h3>
+										<div class="slider-tickets__text">
+											<p>The Park at Wild Horse Pass</p>
+										</div>
+									</div>
+									<div class="slider-tickets__footer">
+										<div class="slider-tickets__date">Apr 02 2021</div>
+										<button class="slider-tickets__btn">tickets</button>
+									</div>
+								</div>
+							</div>
+							<div class="slider-tickets__slide swiper-slide">
+								<div class="slider-tickets__img">
+									<picture><source srcset="img/slider/slide-two.webp" type="image/webp"><img src="img/slider/slide-two.png" alt="Slide Image"></picture>
+								</div>
+								<div class="slider-tickets__main">
+									<div class="slider-tickets__info">
+										<h3 class="slider-tickets__city">Ibiza, IBZ</h3>
+										<div class="slider-tickets__text">
+											<p>Swag Ibiza Club</p>
+										</div>
+									</div>
+									<div class="slider-tickets__footer">
+										<div class="slider-tickets__date">Apr 02 2021</div>
+										<button class="slider-tickets__btn">tickets</button>
+									</div>
+								</div>
+							</div>
+							<div class="slider-tickets__slide swiper-slide">
+								<div class="slider-tickets__img">
+									<picture><source srcset="img/slider/slide-three.webp" type="image/webp"><img src="img/slider/slide-three.png" alt="Slide Image"></picture>
+								</div>
+								<div class="slider-ticketse__main">
+									<div class="slider-tickets__info">
+										<h3 class="slider-tickets__city">Ibiza, IBZ</h3>
+										<div class="slider-tickets__text">
+											<p>El Swing Ibiza</p>
+										</div>
+									</div>
+									<div class="slider-tickets__footer">
+										<div class="slider-tickets__date">Apr 02 2021</div>
+										<button class="slider-tickets__btn">tickets</button>
+									</div>
+								</div>
+							</div>
+							<div class="slider-tickets__slide swiper-slide">
+								<div class="slider-tickets__img">
+									<picture><source srcset="img/slider/slide-one.webp" type="image/webp"><img src="img/slider/slide-one.png" alt="Slide Image"></picture>
+								</div>
+								<div class="slider-tickets__main">
+									<div class="slider-tickets__info">
+										<h3 class="slider-tickets__city">Chandler, AZ</h3>
+										<div class="slider-tickets__text">
+											<p>The Park at Wild Horse Pass</p>
+										</div>
+									</div>
+									<div class="slider-tickets__footer">
+										<div class="slider-tickets__date">Apr 02 2021</div>
+										<button class="slider-tickets__btn">tickets</button>
+									</div>
+								</div>
+							</div>
+							<div class="slider-tickets__slide swiper-slide">
+								<div class="slider-tickets__img">
+									<picture><source srcset="img/slider/slide-two.webp" type="image/webp"><img src="img/slider/slide-two.png" alt="Slide Image"></picture>
+								</div>
+								<div class="slider-tickets__main">
+									<div class="slider-tickets__info">
+										<h3 class="slider-tickets__city">Ibiza, IBZ</h3>
+										<div class="slider-tickets__text">
+											<p>Swag Ibiza Club</p>
+										</div>
+									</div>
+									<div class="slider-tickets__footer">
+										<div class="slider-tickets__date">Apr 02 2021</div>
+										<button class="slider-tickets__btn">tickets</button>
+									</div>
+								</div>
+							</div>
+							<div class="slider-tickets__slide swiper-slide">
+								<div class="slider-tickets__img">
+									<picture><source srcset="img/slider/slide-three.webp" type="image/webp"><img src="img/slider/slide-three.png" alt="Slide Image"></picture>
+								</div>
+								<div class="slider-ticketse__main">
+									<div class="slider-tickets__info">
+										<h3 class="slider-tickets__city">Ibiza, IBZ</h3>
+										<div class="slider-tickets__text">
+											<p>El Swing Ibiza</p>
+										</div>
+									</div>
+									<div class="slider-tickets__footer">
+										<div class="slider-tickets__date">Apr 02 2021</div>
+										<button class="slider-tickets__btn">tickets</button>
+									</div>
+								</div>
+							</div>
+							<div class="slider-tickets__slide swiper-slide">
+								<div class="slider-tickets__img">
+									<picture><source srcset="img/slider/slide-one.webp" type="image/webp"><img src="img/slider/slide-one.png" alt="Slide Image"></picture>
+								</div>
+								<div class="slider-tickets__main">
+									<div class="slider-tickets__info">
+										<h3 class="slider-tickets__city">Chandler, AZ</h3>
+										<div class="slider-tickets__text">
+											<p>The Park at Wild Horse Pass</p>
+										</div>
+									</div>
+									<div class="slider-tickets__footer">
+										<div class="slider-tickets__date">Apr 02 2021</div>
+										<button class="slider-tickets__btn">tickets</button>
+									</div>
+								</div>
+							</div>
+							<div class="slider-tickets__slide swiper-slide">
+								<div class="slider-tickets__img">
+									<picture><source srcset="img/slider/slide-two.webp" type="image/webp"><img src="img/slider/slide-two.png" alt="Slide Image"></picture>
+								</div>
+								<div class="slider-tickets__main">
+									<div class="slider-tickets__info">
+										<h3 class="slider-tickets__city">Ibiza, IBZ</h3>
+										<div class="slider-tickets__text">
+											<p>Swag Ibiza Club</p>
+										</div>
+									</div>
+									<div class="slider-tickets__footer">
+										<div class="slider-tickets__date">Apr 02 2021</div>
+										<button class="slider-tickets__btn">tickets</button>
+									</div>
+								</div>
+							</div>
+							<div class="slider-tickets__slide swiper-slide">
+								<div class="slider-tickets__img">
+									<picture><source srcset="img/slider/slide-three.webp" type="image/webp"><img src="img/slider/slide-three.png" alt="Slide Image"></picture>
+								</div>
+								<div class="slider-ticketse__main">
+									<div class="slider-tickets__info">
+										<h3 class="slider-tickets__city">Ibiza, IBZ</h3>
+										<div class="slider-tickets__text">
+											<p>El Swing Ibiza</p>
+										</div>
+									</div>
+									<div class="slider-tickets__footer">
+										<div class="slider-tickets__date">Apr 02 2021</div>
+										<button class="slider-tickets__btn">tickets</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button class="slider-tickets__wrapper-btn slider-tickets__wrapper-btn_prev">
+						<svg width="20.502014" height="6.661133" viewBox="0 0 20.502 6.66113" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+							<defs />
+							<path id="Arrow 1" d="M20.502 2.83057L0.502014 2.83057L0.502014 3.83057L20.502 3.83057L20.502 2.83057ZM1.20911 3.33057L3.68402 0.855713C3.88196 0.657715 3.88196 0.346558 3.68402 0.14856C3.48602 -0.0494385 3.17487 -0.0494385 2.97687 0.14856L0.148438 2.97705C-0.0494995 3.17505 -0.0494995 3.48608 0.148438 3.68408L2.97687 6.51257C3.17487 6.71057 3.48602 6.71057 3.68402 6.51257C3.88196 6.31458 3.88196 6.00342 3.68402 5.80542L1.20911 3.33057Z" />
+						</svg>
+					</button>
+					<button class="slider-tickets__wrapper-btn slider-tickets__wrapper-btn_next">
+						<svg width="20.502014" height="6.661133" viewBox="0 0 20.502 6.66113" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+							<defs />
+							<path id="Arrow 1" d="M20.502 2.83057L0.502014 2.83057L0.502014 3.83057L20.502 3.83057L20.502 2.83057ZM1.20911 3.33057L3.68402 0.855713C3.88196 0.657715 3.88196 0.346558 3.68402 0.14856C3.48602 -0.0494385 3.17487 -0.0494385 2.97687 0.14856L0.148438 2.97705C-0.0494995 3.17505 -0.0494995 3.48608 0.148438 3.68408L2.97687 6.51257C3.17487 6.71057 3.48602 6.71057 3.68402 6.51257C3.88196 6.31458 3.88196 6.00342 3.68402 5.80542L1.20911 3.33057Z" />
+						</svg>
+					</button>
+				</div>
+			</section>
+		</main>
+		<footer class="footer" data-watch data-watch-once>
+			<div class="footer__container">
+				<div class="footer__main">
+					<a href="#" class="footer__logo logo">
+						<img src="img/logo.svg" alt="Logo">
+					</a>
+					<div class="footer__info">
+						<div class="footer__contact contacts">
+							<div class="contacts__title">Artist Management:</div>
+							<div class="contacts__info">Jake Henny</div>
+						</div>
+						<div class="footer__contact contacts">
+							<div class="contacts__title">EMAIL:</div>
+							<a class="contacts__mail" href="mailto:abc@example.com">jake@brightlightsofficial.com</a>
+						</div>
+					</div>
+					<div class="footer__social social">
+						<a href="#" class="social__link"><img src="img/social/apple.svg" alt="Icon apple"></a>
+						<a href="#" class="social__link"><img src="img/social/spotify.svg" alt="Icon spotify"></a>
+						<a href="#" class="social__link"><img src="img/social/instagram.svg" alt="	Icon instagram"></a>
+						<a href="#" class="social__link"><img src="img/social/youtube.svg" alt="Icon youtube"></a>
+						<a href="#" class="social__link"><img src="img/social/twitter.svg" alt="Icon Twitter"></a>
+						<a href="#" class="social__link"><img src="img/social/facebook.svg" alt="Icon facebook"></a>
+					</div>
+				</div>
+				<div class="footer__copy">© 2020 DJ bright lights.</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20240306171120"></script>
+</body>
+
+</html>
