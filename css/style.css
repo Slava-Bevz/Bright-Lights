@@ -2559,6 +2559,23 @@ button.swiper-pagination-bullet {
   }
 }
 
+@media (max-width: 61.99875em) {
+  .radio__img {
+    position: relative;
+    left: 50%;
+    top: 0;
+    -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+  }
+}
+
+@media (max-width: 61.99875em) and (max-width: 20em) {
+  .radio__img {
+    top: 0.0000000625rem;
+  }
+}
+
 @media (max-width: 47.99875em) {
   .menu__body {
     position: fixed;
@@ -2667,15 +2684,6 @@ button.swiper-pagination-bullet {
   .radio__main {
     -ms-grid-columns: (1fr)[1];
     grid-template-columns: repeat(1, 1fr);
-  }
-
-  .radio__img {
-    position: relative;
-    left: 50%;
-    top: 0;
-    -webkit-transform: translate(-50%, 0);
-        -ms-transform: translate(-50%, 0);
-            transform: translate(-50%, 0);
   }
 
   .last-tracks__container {
@@ -3540,6 +3548,26 @@ button.swiper-pagination-bullet {
 }
 }
 
+@media (max-width: 61.99875em) and (min-width: 71.25em) {
+  .radio__img {
+    top: 0.0000000625rem;
+  }
+}
+
+@media (max-width: 61.99875em) and (min-width: 20em) and (max-width: 71.25em) {
+@supports (top: clamp( 0.0000000625rem , 0.0000000625rem  +  0vw , 0.0000000625rem )) {
+    .radio__img {
+      top: clamp( 0.0000000625rem , 0.0000000625rem  +  0vw , 0.0000000625rem );
+    }
+}
+
+@supports not (top: clamp( 0.0000000625rem , 0.0000000625rem  +  0vw , 0.0000000625rem )) {
+    .radio__img {
+      top: calc(0.0000000625rem + 0 * (100vw - 20rem) / 51.25);
+    }
+}
+}
+
 @media (max-width: 47.99875em) and (min-width: 71.25em) {
   .last-tracks__img {
     width: 28.125rem;
@@ -3578,7 +3606,7 @@ button.swiper-pagination-bullet {
 
 @media (any-hover: hover) {
   .menu__item:hover .menu__link {
-    color: rgb(122, 102, 204);
+    color: rgb(176, 176, 178);
   }
 
   .menu__item:hover .menu__link::after {

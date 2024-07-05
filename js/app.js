@@ -3328,7 +3328,7 @@
             }));
         }
     }), 0);
-    const audio = new Audio("../audio/marnik-naeleck-vinai-boyz-in-paris.mp3");
+    const audio = new Audio("../audio/marnik.mp3");
     let playPauseButton = document.querySelector(".player__play-pause");
     let seekBar = document.querySelector(".player__seek");
     let timeDisplay = document.querySelector(".player__time");
