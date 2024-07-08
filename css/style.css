@@ -2659,6 +2659,16 @@ button.swiper-pagination-bullet {
     display: none;
   }
 
+  .biography__container {
+    -ms-grid-columns: (1fr)[1];
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .biography__img {
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+
   .radio__main {
     -ms-grid-columns: (1fr)[1];
     grid-template-columns: repeat(1, 1fr);
@@ -2701,6 +2711,14 @@ button.swiper-pagination-bullet {
     font-size: 2.1875rem;
   }
 
+  .biography__img {
+    width: 18.125rem;
+  }
+
+  .biography__img {
+    height: 18.125rem;
+  }
+
   .last-tracks__img {
     width: 15.9375rem;
   }
@@ -2713,13 +2731,6 @@ button.swiper-pagination-bullet {
 @media (max-width: 47.99875em) and (any-hover: none) {
   .icon-menu {
     cursor: default;
-  }
-}
-
-@media (max-width: 41.25em) {
-  .biography__container {
-    -ms-grid-columns: (1fr)[1];
-    grid-template-columns: repeat(1, 1fr);
   }
 }
 
@@ -3468,6 +3479,14 @@ button.swiper-pagination-bullet {
     font-size: 1.75rem;
   }
 
+  .biography__img {
+    width: 37.5rem;
+  }
+
+  .biography__img {
+    height: 41.625rem;
+  }
+
   .last-tracks__img {
     width: 28.125rem;
   }
@@ -3487,6 +3506,30 @@ button.swiper-pagination-bullet {
 @supports not (font-size: clamp( 1.75rem , 2.3582317073rem  +  -0.8536585366vw , 2.1875rem )) {
     .menu__link {
       font-size: calc(2.1875rem + -0.4375 * (100vw - 20rem) / 51.25);
+    }
+}
+
+@supports (width: clamp( 18.125rem , 10.5640243902rem  +  37.8048780488vw , 37.5rem )) {
+    .biography__img {
+      width: clamp( 18.125rem , 10.5640243902rem  +  37.8048780488vw , 37.5rem );
+    }
+}
+
+@supports not (width: clamp( 18.125rem , 10.5640243902rem  +  37.8048780488vw , 37.5rem )) {
+    .biography__img {
+      width: calc(18.125rem + 19.375 * (100vw - 20rem) / 51.25);
+    }
+}
+
+@supports (height: clamp( 18.125rem , 8.9542682927rem  +  45.8536585366vw , 41.625rem )) {
+    .biography__img {
+      height: clamp( 18.125rem , 8.9542682927rem  +  45.8536585366vw , 41.625rem );
+    }
+}
+
+@supports not (height: clamp( 18.125rem , 8.9542682927rem  +  45.8536585366vw , 41.625rem )) {
+    .biography__img {
+      height: calc(18.125rem + 23.5 * (100vw - 20rem) / 51.25);
     }
 }
 
